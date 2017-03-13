@@ -1,0 +1,3 @@
+b = function(a) {
+	return 'hi';
+}
