@@ -3,8 +3,8 @@ Bee = (function() {
 		this.c = 'in';
 	}
 
-	Bee.prototype.a = function(c) {
-		c('love');
+	Bee.prototype.a = function(one) {
+		one('love', 'thy neighbor');
 		return this;
 	}
 
@@ -17,6 +17,7 @@ Bee = (function() {
 
 bee = new Bee();
 
-bee.a(function(c) {
-	console.log(c);
+bee.a(function(c, d) {
+	e = c;
+	console.log(e + ' ' + d);
 }).b();
