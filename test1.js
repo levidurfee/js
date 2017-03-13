@@ -3,13 +3,13 @@ Bee = (function() {
 		this.c = 'in';
 	}
 
-	Bee.prototype.a = function(one) {
-		console.log(one('love'));
+	Bee.prototype.a = function(c) {
+		c('love');
 		return this;
 	}
 
 	Bee.prototype.b = function(two) {
-		return 'out';
+		console.log('out');
 	}
 
 	return Bee;
@@ -19,5 +19,4 @@ bee = new Bee();
 
 bee.a(function(c) {
 	console.log(c);
-	return 'wut';
 }).b();
