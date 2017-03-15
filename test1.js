@@ -1,4 +1,7 @@
 Bee = (function() {
+	/**
+	 * Constructor
+	 */
 	function Bee() {
 		this.c = 'in';
 	}
@@ -6,11 +9,11 @@ Bee = (function() {
 	Bee.prototype.a = function(one) {
 		one('love', 'thy neighbor');
 		return this;
-	}
+	};
 
 	Bee.prototype.b = function(two) {
 		console.log('out');
-	}
+	};
 
 	return Bee;
 })();
