@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "^3.17.1",
-    "eslint-config-google": "^0.7.1"
+    "eslint-config-google": "^0.7.1",
+    "mongodb": "^2.2.24",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
