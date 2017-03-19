@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aes-js": "^3.0.0",
     "eslint": "^3.17.1",
     "eslint-config-google": "^0.7.1",
     "mongodb": "^2.2.24",
+    "pbkdf2": "^3.0.9",
     "prompt": "^1.0.0"
   },
   "devDependencies": {},

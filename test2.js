@@ -41,4 +41,5 @@ mongoClient.connect('mongodb://'
     };
 
     getInfo();
-});
+  });
+
